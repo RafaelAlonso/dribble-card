@@ -1,0 +1,62 @@
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  height: 170px;
+  font-size: 10px;
+  flex: 0 0 20%;
+  margin: 15px 10px;
+
+}
+
+.bigbox {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+  border-radius: 2px;
+  transition: 0.2s ease;
+}
+
+.bigbox:hover{
+  padding-bottom: 15px;
+}
+
+.image {
+  position: relative;
+  background-image: url("../../images/background.png");
+  height: 100px;
+}
+
+.image-hover{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: white;
+  transition: 0.2s ease;
+}
+
+.image-hover:hover{
+  opacity: 0.9;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer a {
+  padding-left: 5px;
+}
